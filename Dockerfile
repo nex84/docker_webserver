@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM debian:stretch
 MAINTAINER Alexandre Schwartzmann <schwartzmann.a@gmail.com>
 
 LABEL version="1.0"
