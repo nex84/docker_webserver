@@ -15,10 +15,7 @@ libapache2-mod-php7.2 \
 php7.2-gd \
 php7.2-zip \
 php7.2-json \
-php7.2-mysqlnd \
-php7.2-mcrypt \
-mcrypt
-
+php7.2-mysqlnd 
 
 RUN a2enmod rewrite
 RUN a2dissite 000-default
