@@ -8,7 +8,7 @@ LABEL php-version="5.6"
 
 ADD vhost.conf /etc/apache2/sites-available/
 
-RUN apt-get -y update && apt-cache apt-get install -y \
+RUN apt-get -y update && apt-get install -y \
 apache2 \
 php7.2 \
 libapache2-mod-php7.2 \
