@@ -17,6 +17,7 @@ libapache2-mod-php7.2 \
 php7.2-gd \
 php7.2-zip \
 php7.2-json \
+php7.2-xml \
 php7.2-curl \
 php7.2-mysqlnd \
 php7.2-mbstring
