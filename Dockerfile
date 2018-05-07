@@ -8,7 +8,7 @@ LABEL php-version="5.6"
 
 ADD vhost.conf /etc/apache2/sites-available/
 
-RUN apt-get -y update && apt-cache serach gd | grep php
+RUN apt-get -y update && apt-cache search gd | grep php
 
 RUN a2enmod rewrite
 RUN a2dissite 000-default
