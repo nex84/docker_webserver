@@ -8,6 +8,7 @@ LABEL php-version="5.6"
 
 ADD vhost.conf /etc/apache2/sites-available/
 
+ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get -y update && apt-get install -y \
 apache2 \
 php7.2 \
