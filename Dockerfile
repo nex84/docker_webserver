@@ -21,7 +21,7 @@ php7.2-xml \
 php7.2-curl \
 php7.2-mysqlnd \
 php7.2-mbstring \
-php7.2-pdo_sqlite3 
+php7.2-sqlite3
 
 RUN a2enmod rewrite
 RUN a2dissite 000-default
