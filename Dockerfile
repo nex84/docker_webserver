@@ -10,7 +10,7 @@ ADD vhost.conf /etc/apache2/sites-available/
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get -y update && apt-get install -y \
-curl wget vim unzip \
+curl wget vim unzip sqlite3 \
 apache2 \
 php7.2 \
 libapache2-mod-php7.2 \
@@ -20,7 +20,8 @@ php7.2-json \
 php7.2-xml \
 php7.2-curl \
 php7.2-mysqlnd \
-php7.2-mbstring
+php7.2-mbstring \
+php7.2-pdo_sqlite3 
 
 RUN a2enmod rewrite
 RUN a2dissite 000-default
